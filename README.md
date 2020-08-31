@@ -1,4 +1,4 @@
-## Ler Gustar
+# Ler Gustar
 Projeto desenvolvido na disciplina de Desenvolvimento de Software para Web.
 
 ## Grupo 
