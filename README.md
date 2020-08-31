@@ -3,9 +3,9 @@ Projeto desenvolvido na disciplina de Desenvolvimento de Software para Web.
 
 Grupo: Webnautas
 Integrantes:
-Iude Kildare de Meneses
-Lucas Lima Sousa Torres
-Mariana de Souza Nascimento
+Iude Kildare de Meneses,
+Lucas Lima Sousa Torres,
+Mariana de Souza Nascimento.
 
 Nome do projeto: 
 Ler Gustar
