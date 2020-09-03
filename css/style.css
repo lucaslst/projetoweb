@@ -11,10 +11,9 @@ body {
 
 .box {
     width: 500px;
-    padding: 40px;
+    padding: 0px;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    left: 70%;
     background: white;
     text-align: center;
     transition: 0.25s;
