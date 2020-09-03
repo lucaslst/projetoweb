@@ -1,8 +1,6 @@
 body {
-    background: url('https://images2.alphacoders.com/261/thumb-1920-26102.jpg') no-repeat center center fixed;
-    background-attachment: fixed;
-    background-size: 100%;
-    background-repeat: no-repeat;
+    background: url('https://www.wallpaperflare.com/static/207/453/248/digital-art-nature-sea-rainbows-wallpaper.jpg');
+    background-size: cover;
 }
 
 body {
@@ -38,7 +36,7 @@ body {
     padding: 10px 10px;
     width: 250px;
     outline: none;
-    color: white;
+    color: black;
     border-radius: 24px;
     transition: 0.25s
 }
