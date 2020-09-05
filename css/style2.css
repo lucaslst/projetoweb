@@ -1,5 +1,6 @@
 body {
-    background-color:rgb(168, 75, 255);
+    background-color:rgb(54, 5, 99);
+    background-blend-mode: hard-light;
 }
 
 body {
@@ -11,6 +12,7 @@ body {
 form{
     width: 500px;
     padding: 40px;
+    left: 430px;
     position: absolute;
     background: white;
     text-align: center;
