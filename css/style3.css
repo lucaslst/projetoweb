@@ -21,7 +21,7 @@ header{
 
     padding: 9px 0;
     text-align: center;
-    background: black;
+    background:transparent;
 }
 
 header li{
@@ -45,7 +45,7 @@ body {
 }
 
 .container{
-    background-color:black;
+    background-color: transparent;
     background-blend-mode: hard-light;
    
 }
@@ -66,4 +66,3 @@ body {
   }
 
   
-}
