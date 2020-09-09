@@ -10,6 +10,7 @@
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/comand.js"></script>
+    <script src="js/login.js"></script>
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="imagem/icone.png">
@@ -23,12 +24,12 @@
                   <form class="box">
                     <img src="imagem/logof.png" alt="Erro" width=410 height=200>
                     <img src="imagem/frase.png" alt="Erro" width=400 height=80>
-                      <input type="text" name="" placeholder="Email"> 
-                      <input type="password" name="" placeholder="Senha"> 
+                      <input type="text" name="" id="elogin" placeholder="Email"> 
+                      <input type="password" name="" id="slogin" placeholder="Senha"> 
                       <a class="forgot text-muted" href="#">Esqueceu a senha?</a> 
                       <p></p>
                       <a class="forgot text-muted" onclick= "red()" id="cd" href="#"  >Cadastrar-se gratuitamente</a>
-                      <input type="submit" name="" value="Login" href="#">
+                      <input type="submit" name="" value="Login" href="#" onclick="logar()">
                   </form>
               </div>
           </div>
@@ -39,7 +40,7 @@
     function red()
 {
     
-    window.location.replace("cadastrousuario.html")
+    window.location.href='cadastrousuario.html';
 
 }
 </script>
