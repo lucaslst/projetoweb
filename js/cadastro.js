@@ -11,28 +11,15 @@ function salvar(){
     if(usuario.trim().length == 0 || email.trim().length == 0 || nascimento.trim().length == 0 || senha.trim().length == 0 || csenha.trim().length == 0 ){
     alert("preencher todos os campos!");
     }
-    else{
-    if(senha != csenha){
+    else if(senha != csenha){
      alert("Senhas diferentes");    
-        }
-        else{
-            if(senha.trim().length <= 7){
-                alert("Senhas devem ter no mínimo 8 digitos")
-            }
-            else{
-                //alert('oi');
-                window.location.replace("pinicio.html");
-                //redirecionamento para página inicial e futuramente salvamento do cadastro
-            }
-        }
     }
+    else if(senha.trim().length <= 7){
+                alert("Senhas devem ter no mínimo 8 digitos");
+            }
+    else{
+        //alert('oi');
+        //redirecionamento para página inicial e futuramente salvamento do cadastro
+     }
     }
-
-
-
-
-
-
-
-
-
+    

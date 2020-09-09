@@ -6,19 +6,14 @@ function logar(){
     if(usuario.trim().length == 0 || senha.trim().length == 0){
         alert("preencher todos os campos!");
     }
-    else{
-        if(usuario.trim().length <= 5 ){
+    else if(usuario.trim().length <= 5 ){
             alert("Email inválido!");
-        }
-        else{
-            if(senha.trim().length <= 7){
-                alert("Senha muito inválida!");
-            }
-            else{
-                //futuramente validação do Login
-
-            }
-        }
+    }
+    else if(senha.trim().length <= 7){
+        alert("Senha muito inválida!");
+    }
+    else{
+        //futuramente validação do Login
     }
 
 }
