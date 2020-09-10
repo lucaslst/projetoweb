@@ -20,6 +20,6 @@ function salvar(){
     else{
         //alert('oi');
         //redirecionamento para página inicial e futuramente salvamento do cadastro
-     }
+    }
     }
     

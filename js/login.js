@@ -13,7 +13,7 @@ function logar(){
         alert("Senha muito inválida!");
     }
     else{
-        //futuramente validação do Login
+        
     }
 
 }
