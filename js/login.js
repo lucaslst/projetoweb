@@ -13,7 +13,6 @@ function logar(){
         alert("Senha muito inválida!");
     }
     else{
-        
+        windows.location = 'pinicio.html';
     }
-
 }

@@ -17,9 +17,6 @@ function salvar(){
     else if(senha.trim().length <= 7){
                 alert("Senhas devem ter no mínimo 8 digitos");
             }
-    else{
-        //alert('oi');
-        //redirecionamento para página inicial e futuramente salvamento do cadastro
-    }
+
     }
     
